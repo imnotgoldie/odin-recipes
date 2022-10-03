@@ -1,0 +1,26 @@
+.header {
+    text-align: center;
+    font-family: 'VT323', serif;
+    font-size: 48px;
+}
+.mlogo {
+    display: block;
+    max-width: 30%;  
+    height: auto; 
+    margin-right: auto;
+    margin-left: auto;
+}
+.credits {
+    text-align: center;
+    font-family: 'Indie Flower', serif;
+}
+.ingredients {
+    font-size: 25px;
+    font-family: 'VT323', serif;
+    margin : 0;
+    padding: 0;
+}
+.list {
+    font-size: 14px;
+    font-family: 'Major Mono Display', serif;
+}
