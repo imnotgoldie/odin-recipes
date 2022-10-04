@@ -1,11 +1,10 @@
 .header {
     text-align: center;
     font-family: 'VT323', serif;
-    font-size: 48px;
+    font-size: 84px;
 }
 .mlogo {
     display: block;
-    max-width: 30%;  
     height: auto; 
     margin-right: auto;
     margin-left: auto;
@@ -22,5 +21,23 @@
 }
 .list {
     font-size: 14px;
-    font-family: 'Major Mono Display', serif;
+    font-family: monospace, serif;
+}
+.recipes-img {
+    width: 150px;
+    height: 150px;
+}
+.directions {
+    font-size: 14px;
+    font-family: monospace, serif;
+}
+.recipe-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
 }
