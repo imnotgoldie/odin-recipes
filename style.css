@@ -1,42 +1,48 @@
-.header {
-    text-align: center;
+/* Shared properties */
+.header,
+.ingredients {
     font-family: 'VT323', serif;
-    font-size: 84px;
 }
-.mlogo {
+/* Shared properties */
+.list,
+.directions {
+    font-size: 14px;
+    font-family: monospace, serif;
+}
+/* Shared properties */
+.mlogo,
+.recipe-logo {
     display: block;
     height: auto; 
     margin-right: auto;
     margin-left: auto;
 }
+
+.header {
+    text-align: center;
+    font-size: 84px;
+}
+
 .credits {
     text-align: center;
     font-family: 'Indie Flower', serif;
 }
+
 .ingredients {
     font-size: 25px;
-    font-family: 'VT323', serif;
     margin : 0;
     padding: 0;
 }
-.list {
-    font-size: 14px;
-    font-family: monospace, serif;
-}
+
 .recipes-img {
     width: 150px;
     height: 150px;
 }
-.directions {
-    font-size: 14px;
-    font-family: monospace, serif;
-}
+
 .recipe-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 15%;
 }
+
 .row {
     display: flex;
     justify-content: space-around;
